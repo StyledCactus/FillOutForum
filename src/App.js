@@ -6,7 +6,7 @@ import background from './images/background.png'
 function App() {
   return (
     <form>
-     <img src={background} className='backgrounds'/> 
+     <img src={background} className='backgrounds' alt="backroung"/> 
     <h1 className='fillcontained'>Fill Out Form</h1>
 
 <div className='FirstContain'>
