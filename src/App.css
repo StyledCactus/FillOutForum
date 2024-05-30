@@ -178,4 +178,8 @@ button {
   color: white;
   font-weight: normal;
 }
+.formall{
+  position: relative;
+  left: 700px; 
+}
 

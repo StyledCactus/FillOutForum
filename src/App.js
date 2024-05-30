@@ -5,7 +5,7 @@ import background from './images/background.png'
 
 function App() {
   return (
-    <form>
+    <form className='formall'>
      <img src={background} className='backgrounds' alt="backroung"/> 
     <h1 className='fillcontained'>Fill Out Form</h1>
 
@@ -58,5 +58,6 @@ function App() {
 </form>
   );
 }
+
 
 export default App;
