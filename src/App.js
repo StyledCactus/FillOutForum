@@ -1,24 +1,61 @@
-import logo from './logo.svg';
+
 import './App.css';
+import background from './images/background.png'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <form>
+     <img src={background} className='backgrounds'/> 
+    <h1 className='fillcontained'>Fill Out Form</h1>
+
+<div className='FirstContain'>
+  <h2>First Name:</h2>
+  <input
+    type="text"
+    name="FirstName"
+    className='FirstNameCl'
+  />
+</div>
+
+<div className='SecondNameContained'>
+  <h2>Last Name:</h2>
+  <input
+    type="text"
+    name="LastName"
+    className='LastNameCL'
+  />
+</div>
+
+<div className='EmailContained'>
+  <h2>Email Address:</h2>
+  <input
+    type="email"
+    name="email"
+    className='EmailCL'
+  />
+</div>
+
+<div className='PhoneContained'>
+  <h2>Phone:</h2>
+  <input
+    type="text"
+    name="Phone"
+    className='TelephoneCL'
+  />
+</div>
+
+<div className='addcontained'>
+  <h2>Additional Information:</h2>
+  <textarea
+    type="text"
+    name="Details"
+    className='AdditionalCl'
+  />
+</div>
+
+<button type="submit" className='submitcontatined'><h2 className='subtext'>Submit</h2></button>
+</form>
   );
 }
 

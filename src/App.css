@@ -36,3 +36,146 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+#root{
+  overflow-y: hidden;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  left: 670px;
+  position: relative;
+  top: 200px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label, h2 {
+  margin-right: 10px;
+}
+
+input, textarea {
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fillcontained{
+  left: 90px;
+  position: relative;
+}
+
+.backgrounds{
+  position: fixed;
+  filter: blur(3px);
+  left: 0px;
+  bottom: 0px;
+}
+
+.FirstContain{
+  position: relative;
+  right: 300px;
+  bottom: 5px;
+}
+
+.FirstNameCl{
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(204, 202, 202);
+  border: none;
+}
+
+.SecondNameContained{
+  position: relative;
+  right: 50px;
+  bottom: 120px;
+}
+
+.LastNameCL{
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(204, 202, 202);
+  border: none;
+  background-color: rgb(204, 202, 202);
+  border: none;
+}
+
+.EmailContained{
+  position: relative;
+  left: 200px;
+  bottom: 234px;
+}
+
+.EmailCL{
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(204, 202, 202);
+  border: none;
+}
+
+.PhoneContained{
+  position: relative;
+  left: 450px;
+  bottom: 349px;
+}
+
+.TelephoneCL{
+  position: relative;
+  bottom: 10px;
+  background-color: rgb(204, 202, 202);
+  border: NONE;
+}
+
+.addcontained{
+  position: relative;
+  bottom: 350px;
+  left: 65px;
+}
+
+.AdditionalCl{
+  position: relative;
+  width: 1000px;
+  right: 75px;
+  height: 100px;
+  background-color: rgb(204, 202, 202);
+}
+
+.submitcontatined{
+  position: relative;
+  bottom: 330px;
+  left: 95px;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #5094cc;
+}
+.subtext{
+  position: relative;
+  bottom: 28px;
+  color: white;
+  font-weight: normal;
+}
+
